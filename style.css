@@ -1,4 +1,6 @@
-
+.websitelogo{
+  width: 20%;
+}
 
 header {
   display: flex;
@@ -40,10 +42,10 @@ header {
 @media (max-width: 768px) {
   .nav-links {
     position: absolute;
-    top: 80px;
+    top: 60px;
     left: 0;
     width: 100%;
-    background-color: white;
+    background-color: black;
     display: none;
     flex-direction: column;
     align-items: center;
@@ -128,6 +130,12 @@ header {
   text-align: center;
 }
 @media screen and (max-width: 768px) {
+  .Container_height {
+    height: 0px !important;
+  }
+  .websitelogo{
+    width: 50%;
+  }
     .content h1 {
         margin-top: 80px;
       font-size: 2.5rem; 
@@ -231,7 +239,7 @@ header {
   font-weight: 600;
 }
 .Container_height {
-  height: 80px !important;
+  height: 80px;
 }
 
 .splide__slide {
