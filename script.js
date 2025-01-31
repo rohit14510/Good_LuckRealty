@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
         type: 'loop',
         perPage: 1,
         autoplay: true,
+        interval: 2000,
     }).mount();
 });
   
