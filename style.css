@@ -86,7 +86,7 @@
   .nav-links ul li a {
     text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     transition: 0.5s all;
   }
@@ -212,12 +212,13 @@
     background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
     z-index: 1;
   }
-  .slide-content {
-    position: absolute;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    z-index: 2;
+.slide-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the content */
+  color: #fff;
+  z-index: 2; /* Make sure the content is above the overlay */
 }
 .slide-content h1{
   font-size: 4rem;
